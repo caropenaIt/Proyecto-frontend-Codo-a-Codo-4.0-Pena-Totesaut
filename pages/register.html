@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="/assets/css/style.css">
+     <title>Fashion's clothes-Registrarse</title>
+     <link rel="Gina'sclothes icon" href="../assets/img/favicon.ico" type="image/x-icon">
+     <script src="https://kit.fontawesome.com/b2e03fbc8b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+     <header>
+          <div class="menu container">
+               <div class="logo-container">
+                    <a href="../index.html"><img src="../assets/img/Logo.svg" class="logo" alt="logo"></a>
+               </div>
+               <input type="checkbox" id="menu"/>
+               <label for="menu">
+                    <img src="../assets/img/hamburguesa.svg" class="menu-icono" alt="burguer-menu">
+               </label>
+               <nav class="navbar">
+                    <ul>
+                         <li><a href="../index.html">Inicio</a></li>
+                         <li><a href="./product.html">Productos</a></li>
+                    </ul>
+                    <ul>
+                         <li><a href="./login.html">Iniciar sesión</a> </li>
+                         <li><a href="./register.html">Registrarse</a></li>
+                    </ul>
+               </nav>
+          </div>
+     </header>
+
+     <main class="main-register">
+          <!--formulario-->
+          <section id="form-container" class="form-container">
+               <h2>Registro</h2>
+               <form action="#" id="registerForm" class="form-register">
+
+                    <!--campos-->
+                    <div class="form-control">
+                         <input type="text" name="name"  id="name" placeholder="Nombre">
+                    </div>
+
+                    <div class="form-control">
+                         <input type="text" name="last-name" id="lastname" placeholder="Apellido">
+                    </div>
+
+                    <div class="form-control">
+                         <input type="email" name="email" id="email" placeholder="Email">
+                    </div>
+
+                    <div class="form-control">
+                         <input type="password" name="password" id="password" placeholder=" Contraseña">
+                    </div>
+
+                    <div class="form-control">
+                         <label for="name">Fecha de nacimiento</label>
+                         <input type="date" name="date" id="date">
+                    </div>
+
+                    <div class="form-control">
+                         <select name="sex" id="sex" class="form-select">
+                              <option value="masculino">Masculino</option>
+                              <option value="femenino">Femenino</option>
+                              <option value="otro">Otro</option>
+
+                         </select>
+                    </div>
+                    <!--campos-->
+
+                    <!-- checkbox-->
+                    <div class="form-terms">
+                         <div class="term">
+                              <input type="checkbox" name="TyC" id="terms">
+                              <label>Acepto términos y condiciones</label>
+                         </div>
+                    </div>
+                    <!-- checkbox-->
+
+                    <!-- boton de la accion -->
+                    <div class="button-container">
+                         <button class="register-button" id="btn" disabled>Registrate</button>
+                         <button type="reset" class="register-button">Borrar todo</button>
+                    </div>
+                    <!-- boton de la accion -->
+
+                    <!-- zona de ayuda -->
+                    <div class="form-help">
+                         <a href="#">Necesitás ayuda?</a>
+                    </div>
+                    <!-- zona de ayuda -->
+
+
+
+               </form>
+          </section>
+          <!--formulario-->
+     </main>
+
+     <!--pie de pagina-->
+     <footer class="footer">
+
+          <div class="container">
+
+               <div class="footer-row">
+
+                    <div class="footer-links">
+
+                         <h4>Compañia</h4>
+                         <ul>
+                              <li><a href="#">Nosotros</a></li>
+                              <li><a href="#">Nuestros servicios</a></li>
+                              <li><a href="#">Políticas de privacidad</a></li>
+                         </ul>
+
+                    </div>
+
+                    <div class="footer-links">
+
+                         <h4>Ayuda</h4>
+                         <ul>
+                              <li><a href="#">Preguntas</a></li>
+                              <li><a href="#">Compras</a></li>
+                              <li><a href="#">Envíos</a></li>
+                         </ul>
+
+                    </div>
+
+                    <div class="footer-links">
+
+                         <h4>Síguenos</h4>
+                         <div class="social-link">
+                              <a href="#" class="fab fa-facebook-f"></a>
+                              <a href="#" class="fab fa-instagram"></a>
+                         </div>
+
+                    </div>
+
+               </div>
+
+          </div>
+
+     </footer>
+
+     <!--pie de pagina-->
+<script src="/assets/js/script.js"></script>
+</body>
+
+</html>
